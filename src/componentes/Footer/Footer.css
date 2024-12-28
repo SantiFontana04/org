@@ -1,17 +1,24 @@
-.footer{
-    width: 100%;
-    display: flex;
-    padding: 5%;
-    align-items: center;
-    box-sizing: border-box;
-    background-size: cover;
-    background-position: center;
-    justify-content: space-between;
+footer{
+    background-color: #252A2E;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
 }
-
-.redes img{
-    padding: 0px 15px;
+footer .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 20px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+footer .redes a:hover{
+    opacity: .5;
+    background-color: #000;
 }
